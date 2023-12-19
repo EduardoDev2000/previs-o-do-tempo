@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto ', sans-serif;
+}
+
+.img-previsao {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    margin-top: 12px;
+
+}
+
+body {
+    background-color: #4169E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+
+
+.container {
+    background-color: rgba(10, 10, 10, 0.8);
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 85px;
+    color: #ffffff;
+
+
+}
+
+
+
+input {
+    border: none;
+    outline: none;
+    /* outline:Serve para retirar a linha azul do input*/
+    border-radius: 12px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    background-color: #fcfcfc2b;
+    color: #ffffff;
+    width: calc(100% - 100px);
+}
+
+
+button {
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: #fcfcfc2b;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+
+h2 {
+    font-size: 28px;
+    font-weight: 100;
+    margin: 15px;
+}
+
+p {
+
+    font-size: 20px;
+    font-weight: 100;
+    margin: 15px;
+    text-transform: capitalize; /* Serve para deixar a primeira letra em maiusculo */
+}
+
+.container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
